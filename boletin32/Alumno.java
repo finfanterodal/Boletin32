@@ -58,8 +58,13 @@ public class Alumno {
     }
 
     /* Clase interna
-    * Una clase interna tiene acceso a todas las variables y métodos de su clase externa y puede referirse a 
-    * ellos directamente de la misma manera que lo hacen otros miembros no estáticos de la clase externa.
+      Una clase interna tiene acceso a todas las variables y métodos de su clase externa y puede referirse a 
+      ellos directamente de la misma manera que lo hacen otros miembros no estáticos de la clase externa.
+     -Puede acceder al miembro estático de la clase externa
+            System.out.println("externo_x: "+externo_x);
+     -Puede acceder a un miembro no estático de la clase externa
+            System.out.println("externo_y: "+externo_y);
+     -Puede acceder a mostrar un miembro privado de la clase externa
     */
     
     class Enderezo {
